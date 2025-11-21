@@ -1,0 +1,9 @@
+﻿node_modules
+.next
+.env
+.env.local
+dev.db
+*.sqlite
+.vscode
+npm-debug.log
+yarn-error.log
