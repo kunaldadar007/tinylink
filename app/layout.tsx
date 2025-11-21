@@ -1,0 +1,21 @@
+import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import "../styles/globals.css";
+
+export const metadata = {
+  title: "TinyLink",
+  description: "TinyLink — URL shortener",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body className="min-h-screen bg-gray-50 text-gray-900">
+        <Header />
+        <main className="max-w-4xl mx-auto p-4">{children}</main>
+        <Footer />
+      </body>
+    </html>
+  );
+}

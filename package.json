@@ -1,0 +1,36 @@
+{
+  "name": "TinyLink",
+  "version": "1.0.0",
+  "description": "A URL shortening service that allows users to shorten URLs, view click statistics, and manage links.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "keywords": [
+    "url",
+    "shortener",
+    "link",
+    "analytics"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^3.15.2",
+    "axios": "^0.21.1",
+    "next": "latest",
+    "prisma": "^3.0.0",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "jest": "^26.6.0",
+    "ts-jest": "^26.5.0",
+    "typescript": "^4.0.0"
+  }
+}
