@@ -2,3 +2,4 @@
 .next/
 .env
 *.db
+prisma/dev.db
