@@ -25,6 +25,11 @@
     "react": "latest",
     "react-dom": "latest"
   },
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+},
   "devDependencies": {
     "@types/jest": "^26.0.0",
     "@types/react": "^17.0.0",
